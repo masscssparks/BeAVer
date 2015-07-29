@@ -1,0 +1,10 @@
+application: quantifiedself-staging
+version: 88
+runtime: python
+api_version: 1
+
+handlers:
+- url: .*
+  script: main.py
+builtins:
+- remote_api: on
