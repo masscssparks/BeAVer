@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/kennethyee/Desktop/Paco2/pacoAndroidLib/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">PacoLib</string>
+    <string name="hello">Hello World, Hello!</string>
+    <string name="login_error_msg">Could not authenticate. Please exit and create a google.com login account in \'System Settings/Accounts &amp; Sync settings\'.</string>
+</resources>

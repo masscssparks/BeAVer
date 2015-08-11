@@ -1,0 +1,4 @@
+include ':pacoAndroidLib'
+include ':shared'
+include ':paco'
+include ':Paco2'

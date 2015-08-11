@@ -1,0 +1,92 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From Paco:
+* .DS_Store
+* android_keystore/
+* android_keystore/placeholder.txt
+* ant.properties
+* build.xml
+* build_as_library.xml
+* copy_apk_to_server.sh
+* default_as_library.properties
+* experiment_json_form.txt
+* jarsign.sh
+* proguard.cfg
+* zipalign.sh
+From PacoAndroidLib:
+* build.xml
+* proguard.cfg
+From Shared:
+* .gitignore
+* build.xml
+* lib/
+* lib/junit-4.10.jar
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In PacoAndroidLib:
+* AndroidManifest.xml => pacoAndroidLib/src/main/AndroidManifest.xml
+* res/ => pacoAndroidLib/src/main/res/
+* src/ => pacoAndroidLib/src/main/java/
+In Shared:
+* lib/jackson-all-1.9.11.jar => shared/lib/jackson-all-1.9.11.jar
+* lib/joda-time-2.2.jar => shared/lib/joda-time-2.2.jar
+* src/ => shared/src/main/java/
+* src/com/google/paco/shared/Shared.gwt.xml => shared/src/main/resources/com/google/paco/shared/Shared.gwt.xml
+* test/ => shared/src/main/java/
+In Paco:
+* AndroidManifest.xml => paco/src/main/AndroidManifest.xml
+* assets/ => paco/src/main/assets/
+* libs/android-support-v4.jar => paco/libs/android-support-v4.jar
+* libs/android-support-v7-appcompat.jar => paco/libs/android-support-v7-appcompat.jar
+* libs/antlr-runtime-3.2.jar => paco/libs/antlr-runtime-3.2.jar
+* libs/guava-16.0.1.jar => paco/libs/guava-16.0.1.jar
+* libs/jackson-all-1.9.11.jar => paco/libs/jackson-all-1.9.11.jar
+* libs/joda-convert-1.3.1.jar => paco/libs/joda-convert-1.3.1.jar
+* libs/joda-time-2.2.jar => paco/libs/joda-time-2.2.jar
+* res/ => paco/src/main/res/
+* src/ => paco/src/main/java/
+* src/.DS_Store => paco/src/main/resources/.DS_Store
+* src/com/.DS_Store => paco/src/main/resources/com/.DS_Store
+* src/com/google/.DS_Store => paco/src/main/resources/com/google/.DS_Store
+* src/com/google/android/.DS_Store => paco/src/main/resources/com/google/android/.DS_Store
+* src/com/google/android/apps/.DS_Store => paco/src/main/resources/com/google/android/apps/.DS_Store
+* src/com/google/android/apps/paco/questioncondparser/QuestionCondition.g => paco/src/main/resources/com/google/android/apps/paco/questioncondparser/QuestionCondition.g
+* src/com/google/android/apps/paco/questioncondparser/QuestionCondition.tokens => paco/src/main/resources/com/google/android/apps/paco/questioncondparser/QuestionCondition.tokens
+* Test/libs/junit-4.10.jar => paco/libs/junit-4.10.jar
+* Test/res/ => paco/src/androidTest/res/
+* Test/src/ => paco/src/androidTest/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
