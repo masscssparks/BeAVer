@@ -27,7 +27,7 @@
 }
 
 + (PacoTitleView*)viewWithDefaultIconAndText:(NSString*)text {
-  return [[PacoTitleView alloc] initWithText:text andIcon:@"testLogo32.png"];
+  return [[PacoTitleView alloc] initWithText:text andIcon:@"BeaVer-32.png"];
 }
 
 - (id)initWithText:(NSString*)text andIcon:(NSString*)iconName{
