@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		223EA5CA1B66A92800CF4FCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 223EA5C91B66A92700CF4FCD /* Images.xcassets */; };
-		2281B4EF1B8E5CBA00F5025F /* BeaVer-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 2281B4EE1B8E5CBA00F5025F /* BeaVer-32.png */; };
 		22B39C951B67F88600BDE27F /* contacticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B39C941B67F88600BDE27F /* contacticon.png */; };
 		22DC1C581BC1E49E0024A994 /* screen3-640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DC1C521BC1E49E0024A994 /* screen3-640x960.png */; };
 		22DC1C591BC1E49E0024A994 /* screen3-640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DC1C531BC1E49E0024A994 /* screen3-640x1136.png */; };
@@ -349,7 +348,6 @@
 
 /* Begin PBXFileReference section */
 		223EA5C91B66A92700CF4FCD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../../../../paco-release-1.1.6/Paco-iOS/Paco/config/Images.xcassets"; sourceTree = "<group>"; };
-		2281B4EE1B8E5CBA00F5025F /* BeaVer-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BeaVer-32.png"; path = "../../../../BABSON IMAGES/Beaver/BeaVer-32.png"; sourceTree = "<group>"; };
 		22B39C941B67F88600BDE27F /* contacticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = contacticon.png; path = "../../../../BABSON IMAGES/contacticon.png"; sourceTree = "<group>"; };
 		22DC1C521BC1E49E0024A994 /* screen3-640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen3-640x960.png"; sourceTree = "<group>"; };
 		22DC1C531BC1E49E0024A994 /* screen3-640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen3-640x1136.png"; sourceTree = "<group>"; };
@@ -359,7 +357,7 @@
 		22DC1C571BC1E49E0024A994 /* screen3-2048x1536.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen3-2048x1536.png"; sourceTree = "<group>"; };
 		22DC1C5E1BC1E55B0024A994 /* dingsound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dingsound.mp3; sourceTree = "<group>"; };
 		22DC1C601BC1E5B70024A994 /* contacticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contacticon.png; sourceTree = "<group>"; };
-		22DC1C611BC1E5B70024A994 /* graphicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = graphicon.png; path = Paco/resources/graphicon.png; sourceTree = SOURCE_ROOT; };
+		22DC1C611BC1E5B70024A994 /* graphicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graphicon.png; sourceTree = "<group>"; };
 		22DC1C621BC1E5B70024A994 /* magglass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magglass.png; sourceTree = "<group>"; };
 		22DC1C631BC1E5B70024A994 /* questionmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = questionmark.png; sourceTree = "<group>"; };
 		22DC1C641BC1E5B70024A994 /* settings1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings1.png; sourceTree = "<group>"; };
@@ -1172,7 +1170,6 @@
 				22DC1C551BC1E49E0024A994 /* screen3-1024x768 copy.png */,
 				22DC1C561BC1E49E0024A994 /* screen3-1536x2048.png */,
 				22DC1C571BC1E49E0024A994 /* screen3-2048x1536.png */,
-				2281B4EE1B8E5CBA00F5025F /* BeaVer-32.png */,
 				22DC1C601BC1E5B70024A994 /* contacticon.png */,
 				22DC1C611BC1E5B70024A994 /* graphicon.png */,
 				22DC1C621BC1E5B70024A994 /* magglass.png */,
@@ -1717,7 +1714,6 @@
 				4448BCB61A808E7A0034FCE9 /* UnitTests-Info.plist in Resources */,
 				36B8EBE017568E29004CF035 /* experiment_normal.png in Resources */,
 				22DC1C5B1BC1E49E0024A994 /* screen3-1024x768 copy.png in Resources */,
-				2281B4EF1B8E5CBA00F5025F /* BeaVer-32.png in Resources */,
 				22DC1C661BC1E5B70024A994 /* graphicon.png in Resources */,
 				36B8EBE117568E29004CF035 /* experiment_pressed.png in Resources */,
 				36B8EBE217568E29004CF035 /* feedback_disabled.png in Resources */,
