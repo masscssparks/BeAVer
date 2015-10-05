@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		223EA5CA1B66A92800CF4FCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 223EA5C91B66A92700CF4FCD /* Images.xcassets */; };
-		22B39C951B67F88600BDE27F /* contacticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B39C941B67F88600BDE27F /* contacticon.png */; };
 		22DC1C581BC1E49E0024A994 /* screen3-640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DC1C521BC1E49E0024A994 /* screen3-640x960.png */; };
 		22DC1C591BC1E49E0024A994 /* screen3-640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DC1C531BC1E49E0024A994 /* screen3-640x1136.png */; };
 		22DC1C5A1BC1E49E0024A994 /* screen3-760x1024 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DC1C541BC1E49E0024A994 /* screen3-760x1024 copy.png */; };
@@ -348,7 +347,6 @@
 
 /* Begin PBXFileReference section */
 		223EA5C91B66A92700CF4FCD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../../../../paco-release-1.1.6/Paco-iOS/Paco/config/Images.xcassets"; sourceTree = "<group>"; };
-		22B39C941B67F88600BDE27F /* contacticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = contacticon.png; path = "../../../../BABSON IMAGES/contacticon.png"; sourceTree = "<group>"; };
 		22DC1C521BC1E49E0024A994 /* screen3-640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen3-640x960.png"; sourceTree = "<group>"; };
 		22DC1C531BC1E49E0024A994 /* screen3-640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen3-640x1136.png"; sourceTree = "<group>"; };
 		22DC1C541BC1E49E0024A994 /* screen3-760x1024 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen3-760x1024 copy.png"; sourceTree = "<group>"; };
@@ -1182,7 +1180,6 @@
 				36000C5817CD1AF600A8A9E7 /* Test_999999999.plist */,
 				C567E88F17A03FDE00267A26 /* deepbark_trial.mp3 */,
 				22DC1C5E1BC1E55B0024A994 /* dingsound.mp3 */,
-				22B39C941B67F88600BDE27F /* contacticon.png */,
 				36B8EB9617568E29004CF035 /* calculator.png */,
 				36B8EB9717568E29004CF035 /* current_experiments_disabled.png */,
 				36B8EB9817568E29004CF035 /* current_experiments_focused.png */,
@@ -1741,7 +1738,6 @@
 				36B8EBFC17568E29004CF035 /* smile_icon3.png in Resources */,
 				36B8EBFD17568E29004CF035 /* smile_icon3_re.png in Resources */,
 				36B8EBFE17568E29004CF035 /* smile_icon4.png in Resources */,
-				22B39C951B67F88600BDE27F /* contacticon.png in Resources */,
 				22DC1C681BC1E5B70024A994 /* questionmark.png in Resources */,
 				36B8EBFF17568E29004CF035 /* smile_icon4_re.png in Resources */,
 				36B8EC0017568E29004CF035 /* smile_icon5.png in Resources */,
