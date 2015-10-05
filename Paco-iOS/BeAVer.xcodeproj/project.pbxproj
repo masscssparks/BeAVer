@@ -351,7 +351,7 @@
 		22B39C941B67F88600BDE27F /* contacticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = contacticon.png; path = "../../../../BABSON IMAGES/contacticon.png"; sourceTree = "<group>"; };
 		22DC1C521BC1E49E0024A994 /* screen3-640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen3-640x960.png"; sourceTree = "<group>"; };
 		22DC1C531BC1E49E0024A994 /* screen3-640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen3-640x1136.png"; sourceTree = "<group>"; };
-		22DC1C541BC1E49E0024A994 /* screen3-760x1024 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "screen3-760x1024 copy.png"; path = "/Users/shrutikaruhela/Documents/PacoGreen/Paco-iOS/Paco/resources/screen3-760x1024 copy.png"; sourceTree = "<absolute>"; };
+		22DC1C541BC1E49E0024A994 /* screen3-760x1024 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen3-760x1024 copy.png"; sourceTree = "<group>"; };
 		22DC1C551BC1E49E0024A994 /* screen3-1024x768 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen3-1024x768 copy.png"; sourceTree = "<group>"; };
 		22DC1C561BC1E49E0024A994 /* screen3-1536x2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen3-1536x2048.png"; sourceTree = "<group>"; };
 		22DC1C571BC1E49E0024A994 /* screen3-2048x1536.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen3-2048x1536.png"; sourceTree = "<group>"; };
