@@ -7,7 +7,7 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>AA974282-A4A1-4061-8558-470BE1A3B68D</string>
 	<key>IDESourceControlProjectName</key>
-	<string>BeAVer</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>22754eea-fc93-e339-b032-c1f495b90c16++505</key>
@@ -20,7 +20,7 @@
 		<string>https://github.com/stig/json-framework.git/tags/v2.3.2/Classes</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Paco-iOS/BeAVer.xcodeproj</string>
+	<string>Paco-iOS/BeAVer.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>22754eea-fc93-e339-b032-c1f495b90c16++505</key>
